@@ -7,8 +7,4 @@
   </main>
 </template>
 
-<style scoped lang="scss">
-h2 {
-  color: $color-primary;
-}
-</style>
+<style scoped lang="scss"></style>
