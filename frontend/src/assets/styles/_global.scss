@@ -1,0 +1,15 @@
+@use '_reset.scss';
+
+*,
+div {
+  font-family: Poppins, sans-serif;
+}
+
+.rLink {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5em;
+  color: $primary;
+}

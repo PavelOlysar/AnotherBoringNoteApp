@@ -1,17 +1,26 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import NavbarAuthenticated from './components/NavbarAuthenticated.vue'
 </script>
 
 <template>
-  <header>
-    <h1>navv</h1>
-  </header>
-  <main>
-    <RouterView />
-  </main>
-  <footer>
-    <h1>fott</h1>
-  </footer>
+  <div class="app">
+    <header>
+      <NavbarAuthenticated />
+    </header>
+    <main>
+      <RouterView />
+    </main>
+    <footer>
+      <h1>fott</h1>
+    </footer>
+  </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.app {
+  background-color: $darkMain;
+
+  width: 100%;
+}
+</style>
